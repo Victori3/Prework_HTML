@@ -1,1 +1,6 @@
-
+p {
+    color: black;
+}
+p.withBackground {
+    background-color: yellow;
+}
