@@ -1,0 +1,41 @@
+#first-span {
+    color: rebeccapurple;
+}
+
+#second-span {
+    color: orange;
+}
+
+p #red {
+    color: red;
+}
+#green {
+    color: green;
+}
+#darkkhaki {
+    color: darkkhaki;
+}
+
+div #first-paragraf {
+    color: #57C79E
+}
+#second-paragraf {
+    color: rgba(255, 0, 0, .25);
+}
+#third-paragraf {
+    color: hsl(90, 100%, 25%);
+}
+
+div.container {
+    background-color: yellow;
+    width: 200px;
+}
+
+div .first {
+    background-color: lightgrey;
+    width: 50%;
+}
+.second {
+    background-color: violet;
+    width: 10em;
+}
