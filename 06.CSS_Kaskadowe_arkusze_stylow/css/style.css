@@ -1,0 +1,21 @@
+body {
+    background-color: blue; /*niebieskie tło elementowi body*/
+}
+
+p {
+    color: brown; /*brązowy kolor p*/
+}
+
+#first-paragraph {
+    color: darkgreen; /*kolor wybranego tekstu*/
+}
+
+#second-paragraph {
+    color: violet;
+}
+
+.block {
+    width: 100px;
+    height: 50px;
+    border: 3px solid red;
+}
