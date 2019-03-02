@@ -1,0 +1,12 @@
+.squarelist {
+    list-style-type: square; /*zamieniamy kropki na kwadraciki*/
+}
+
+.menulist {
+    color: #116493;
+}
+
+.menu {
+    display: inline-block; /*lista w poziomie (menu)*/
+    margin: 0 20px;
+}
