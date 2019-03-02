@@ -2,9 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
-
+    <title>Test 14</title>
 </head>
 <body>
+<form class="contactForm">
+    <div>
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Your name">
+    </div>
+    <div>
+        <label for="email">Your E-mail Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="Your e-mail">
+    </div>
+    <div>
+        <label for="message">Your message:</label><br>
+        <textarea cols="50" rows="10" id="message" name="message">Please describe your question or comment</textarea>
+    </div>
+
+<input type="submit" value="Send">
+</form>
+
+
+<form class="rentCarForm">
+    <h1>Car rental</h1>
+    <fieldset>
+        <legend>Choose car class</legend>
+
+            <label>mini
+                <input type="radio" name="carclass" value="mini">
+            </label> <br>
+
+            <label>economy
+                <input type="radio" name="carclass" value="economy">
+            </label> <br>
+
+            <label>compact
+                <input type="radio" name="carclass" value="compact">
+            </label> <br>
+
+            <label>SUV
+                <input type="radio" name="carclass" value="SUV">
+            </label> <br>
+
+            <label>VAN
+                <input type="radio" name="carclass" value="VAN">
+            </label> <br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Choose optional equipment</legend>
+
+            <label>childseat
+                <input type="checkbox" name="extras" value="childseat">
+            </label> <br>
+
+            <label>GPS
+                <input type="checkbox" name="extras" value="GPS" checked>
+            </label> <br>
+
+            <label>DVD player
+                <input type="checkbox" name="extras" value="DVD player">
+            </label> <br>
+    </fieldset>
+
+    <label>Rental start date:
+        <input type="date" name="Rental start date:" placeholder="rrrr-mm-dd">
+    </label> <br>
+
+    <label>Number of dates:
+        <input type="number" name="Number of dates:">
+    </label> <br>
+
+    <label>Your password:
+        <input type="password" name="Your password:">
+    </label> <br>
+
+    <input type="submit" value="Order now!">
+</form>
 </body>
 </html>
